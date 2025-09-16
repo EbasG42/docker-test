@@ -69,3 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##Docker Buildx
+
+For Buildx we used secrets to put user and passwords for Docker login 
+We created the enviroment with the dockerfile and in a pipeline 
+<img width="638" height="417" alt="image" src="https://github.com/user-attachments/assets/bfbe452e-c77f-485f-ba80-e9d7e8644361" />
+
+<img width="862" height="497" alt="image" src="https://github.com/user-attachments/assets/e42e8dd9-7002-4973-b7aa-6d6f8d873da7" />
+
+Configured to login into an external docker account to push the docker image into that account's repository
+
+
+<img width="969" height="149" alt="image" src="https://github.com/user-attachments/assets/d08a41f7-b259-4e10-8727-e69c665a58a0" />
+
+
